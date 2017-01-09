@@ -1,0 +1,15 @@
+
+
+@media (min-width: 768px){
+.dl-horizontal dd{
+    margin-left: 0;
+}
+
+.dl-horizontal dt{
+    text-align: left;
+}
+}
+
+.allPost{
+    margin-top: 0;
+}
