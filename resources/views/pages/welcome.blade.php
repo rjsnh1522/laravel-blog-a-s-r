@@ -25,7 +25,7 @@
         <hr>
         @foreach($posts as $post)
         <h3><a href="{{route('blog.single',$post->slug)}}">{{$post->title}}</a></h3>
-        <p class="date">{{$post->created_at}}</p>
+        <p class="date">{{date('F j, Y',strtotime($post->created_at))}}</p>
 
         @endforeach
 

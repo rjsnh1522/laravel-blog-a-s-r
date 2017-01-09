@@ -245,13 +245,16 @@ p, ul, ol {
 .pagination:after {
     clear: both;
 }
-ul.pagination{
+
+ul.pagination {
     list-style: none;
 }
-ul.pager{
+
+ul.pager {
     list-style: none;
 
 }
+
 .pagination {
     text-align: center;
     list-style: none;
@@ -298,8 +301,8 @@ ul.pager{
     background: #ffffff;
 }
 
-#DataTables_Table_0_paginate,#DataTables_Table_0_info{
-    display:none;
+#DataTables_Table_0_paginate, #DataTables_Table_0_info {
+    display: none;
 }
 
 /*contact*/
@@ -308,7 +311,7 @@ label {
 }
 
 input[type="text"], input[type="email"],
-input[type='password'],input[type='search'], textarea {
+input[type='password'], input[type='search'], textarea {
     width: 100%;
     max-width: 100%;
     height: 3em;
@@ -330,27 +333,33 @@ input[type='submit'] {
     color: #424652;
     padding: 1em 2em;
 }
-#DataTables_Table_0_length{
+
+#DataTables_Table_0_length {
     float: left;
     display: none;
 }
-#DataTables_Table_0_filter{
+
+#DataTables_Table_0_filter {
     width: 50%;
     margin: 0 auto;
 }
+
 input[type='submit']:hover {
     border: 2px solid #8bc6db;
     color: #8bc6db;
 }
-input[type='search']{
+
+input[type='search'] {
     width: 80%;
     height: 1em;
 }
-.btn-xs{
+
+.btn-xs {
     /*border: 1px solid #8bc6db;*/
     color: #424652;
     text-decoration: none;
 }
+
 /*post show contetn*/
 #content {
     padding: 1.3em 0;
@@ -362,7 +371,7 @@ input[type='search']{
 }
 
 #post_show_content header .date {
-    font-size: .9em;
+    font-size: 1.145em;
     color: #9a9da4;
     margin: 0;
 }
@@ -492,6 +501,7 @@ input[type='submit'].cancelRed:hover {
 .text-center {
     text-align: center;
 }
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
@@ -508,6 +518,22 @@ td, th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
-.floatRightIndex{
+
+.floatRightIndex {
     float: right;
+}
+
+.singleBlogTitle {
+    margin: 1.3em 0;
+}
+
+.singleBlogTitle h3 {
+    margin: 0;
+}
+.singleBlogTitle h3 a{
+    text-decoration: none;
+    color: #424652;
+}
+.singleBlogTitle h3 a:hover{
+    color: #8bc6db;
 }

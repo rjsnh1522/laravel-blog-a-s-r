@@ -19,4 +19,14 @@ class BlogController extends Controller
         return view('blog.single')->withPost($post);
 
     }
+
+    public function getAllBlog(){
+
+        $data['post']=Post::select('*')->orderBy('created_at','desc')->paginate(10);
+
+//        return $data;
+
+        return view('blog.all',compact('data'));
+
+    }
 }
