@@ -7,7 +7,7 @@
 
 @section('content')
 
-    <div class="container">
+    <div class="row skinny_wrapper" id="post_show_content">
     	<div class="row">
     		<div class="col-xs-6 col-lg-offset-3 col-md-offset-3 col-sm-6 col-md-6 col-lg-6">
 
@@ -34,7 +34,7 @@
 
                     <input type="hidden" name="_token" value="{{csrf_token()}}" class="form-control" >
 
-                	<button type="submit" class="btn btn-primary btn-block">Login</button>
+                	<input type="submit" class="btn btn-primary btn-block" value="Login">
                 </form>
 
     		</div>
